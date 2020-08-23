@@ -3,4 +3,4 @@ project(c_primer_plus C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(c_primer_plus main.c)
+add_executable(c_primer_plus main.c dataAndC/platinum.c dataAndC/bases.c)

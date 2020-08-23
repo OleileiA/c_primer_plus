@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/c_primer_plus.dir/dataAndC/bases.c.o"
+  "CMakeFiles/c_primer_plus.dir/dataAndC/platinum.c.o"
   "CMakeFiles/c_primer_plus.dir/main.c.o"
   "c_primer_plus"
   "c_primer_plus.pdb"

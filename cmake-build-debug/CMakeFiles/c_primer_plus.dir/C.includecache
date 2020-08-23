@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/cyw/Desktop/learnByself/2020/c_primer_plus/dataAndC/bases.c
+stdio.h
+-
+inttypes.h
+-
+

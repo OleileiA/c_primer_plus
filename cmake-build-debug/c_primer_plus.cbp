@@ -78,6 +78,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/cyw/Desktop/learnByself/2020/c_primer_plus/dataAndC/bases.c">
+			<Option target="c_primer_plus"/>
+		</Unit>
+		<Unit filename="/Users/cyw/Desktop/learnByself/2020/c_primer_plus/dataAndC/platinum.c">
+			<Option target="c_primer_plus"/>
+		</Unit>
 		<Unit filename="/Users/cyw/Desktop/learnByself/2020/c_primer_plus/main.c">
 			<Option target="c_primer_plus"/>
 		</Unit>

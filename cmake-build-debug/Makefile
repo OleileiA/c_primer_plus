@@ -143,6 +143,60 @@ c_primer_plus/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_primer_plus.dir/build.make CMakeFiles/c_primer_plus.dir/build
 .PHONY : c_primer_plus/fast
 
+dataAndC/bases.o: dataAndC/bases.c.o
+
+.PHONY : dataAndC/bases.o
+
+# target to build an object file
+dataAndC/bases.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_primer_plus.dir/build.make CMakeFiles/c_primer_plus.dir/dataAndC/bases.c.o
+.PHONY : dataAndC/bases.c.o
+
+dataAndC/bases.i: dataAndC/bases.c.i
+
+.PHONY : dataAndC/bases.i
+
+# target to preprocess a source file
+dataAndC/bases.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_primer_plus.dir/build.make CMakeFiles/c_primer_plus.dir/dataAndC/bases.c.i
+.PHONY : dataAndC/bases.c.i
+
+dataAndC/bases.s: dataAndC/bases.c.s
+
+.PHONY : dataAndC/bases.s
+
+# target to generate assembly for a file
+dataAndC/bases.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_primer_plus.dir/build.make CMakeFiles/c_primer_plus.dir/dataAndC/bases.c.s
+.PHONY : dataAndC/bases.c.s
+
+dataAndC/platinum.o: dataAndC/platinum.c.o
+
+.PHONY : dataAndC/platinum.o
+
+# target to build an object file
+dataAndC/platinum.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_primer_plus.dir/build.make CMakeFiles/c_primer_plus.dir/dataAndC/platinum.c.o
+.PHONY : dataAndC/platinum.c.o
+
+dataAndC/platinum.i: dataAndC/platinum.c.i
+
+.PHONY : dataAndC/platinum.i
+
+# target to preprocess a source file
+dataAndC/platinum.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_primer_plus.dir/build.make CMakeFiles/c_primer_plus.dir/dataAndC/platinum.c.i
+.PHONY : dataAndC/platinum.c.i
+
+dataAndC/platinum.s: dataAndC/platinum.c.s
+
+.PHONY : dataAndC/platinum.s
+
+# target to generate assembly for a file
+dataAndC/platinum.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_primer_plus.dir/build.make CMakeFiles/c_primer_plus.dir/dataAndC/platinum.c.s
+.PHONY : dataAndC/platinum.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -179,6 +233,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... c_primer_plus"
+	@echo "... dataAndC/bases.o"
+	@echo "... dataAndC/bases.i"
+	@echo "... dataAndC/bases.s"
+	@echo "... dataAndC/platinum.o"
+	@echo "... dataAndC/platinum.i"
+	@echo "... dataAndC/platinum.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
